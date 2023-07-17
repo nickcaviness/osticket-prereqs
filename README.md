@@ -57,6 +57,24 @@ Type the IP Address **_127.0.0.1_** in a website search bar. Doing so will show 
 ![Screenshot (27)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/794804d3-6f38-4b5d-aa3e-cee0d05474d5)
 
 
+7) Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+![Screenshot (28)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/2c1ed243-ba80-4669-b295-2727cb678440)
+
+Once installed, launch the configuration wizard for MySQL and select **_Standard Configuration_**. For the security settings, the username will always be root. Create a password and finish installation. 
+
+![Screenshot (29)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/cc2583e4-2dd1-407e-a6b2-a0ad18ba3053)
+
+
+8) Open IIS as an Admin. Once open, go to **_PHP Manager_** and click **_Register new PHP version_**. Browse to **_php-cgi_** in the PHP folder and click it for registation. Finally, restart web server
+
+
+9) Install osTicket  v.1.15.8. Once installed, click on the file and move the upload file inside the osTicket folder to **_Windows:C_** -> **_inetpub_** -> **_wwwroot_**. Rename the upload folder to **_osTicket_**. Restart the web server in IIS.
+
+
+10) In IIS, go to **_Sites_** -> **Default Web Sites_** -> **_osTicket_**. Click on **_Browse*.80_**. This will open the the osTicket Installer.
+
+![Screenshot (31)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/e353890e-40bf-4380-a53d-a5d098b43a1f)
 
 
 
