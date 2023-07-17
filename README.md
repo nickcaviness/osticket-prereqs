@@ -32,7 +32,6 @@ Type the IP Address **_127.0.0.1_** in a website search bar. Doing so will show 
 ![Screenshot (22)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/79029a8f-c634-46ff-8485-3b8d48f34eb2)
 
 
-
 2) Install PHP Manager (PHPManagerForllS_V1.5.0.msi)
 
 ![Screenshot (23)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/4ac208d9-5e24-4f6c-a1a0-e7c33b197cf3)
@@ -40,7 +39,38 @@ Type the IP Address **_127.0.0.1_** in a website search bar. Doing so will show 
 
 3) Install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-   ![Screenshot (24)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/7d7ca116-fc3e-41e4-8a91-dc6eed003263)
+ ![Screenshot (24)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/7d7ca116-fc3e-41e4-8a91-dc6eed003263)
+
+
+4) Create the directory **_C:\PHP_** on the Windows C Drive
+
+![Screenshot (25)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/7f0c4b05-ce0d-4d6c-b8ab-daa779164c2d)
+
+
+5) Install PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip). Once installed, unzip the program into **_C:\PHP_**
+
+![Screenshot (25)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/e9c747f2-ddb2-48c6-a87b-7063e98c22b0)
+
+
+6) Install Microsoft Visual C++ Redistributable program (VC.redist.x86.exe)
+
+![Screenshot (27)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/794804d3-6f38-4b5d-aa3e-cee0d05474d5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
