@@ -77,6 +77,27 @@ Once installed, launch the configuration wizard for MySQL and select **_Standard
 ![Screenshot (31)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/e353890e-40bf-4380-a53d-a5d098b43a1f)
 
 
+11) In IIS, go to **_Sites_** -> **Default Web Sites_** -> **_osTicket_**. Double click **_PHP Manager_** and click **_Enable or disable and extension_**. From here, enable **_php_imap.dll_**,**_php_intl.dll_**, and **_php.opcache.dll_*. Refresh the osTicket website for the changes to occur. 
+
+![Screenshot (36)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/8f2b7d71-e809-4810-9bf1-3632998ba74c)
+
+
+12) From the file explorer go to **_Windows:C_** -> **_inetpub_** -> **_wwwroot_** -> **_osTicket_** -> **_include_**. Rename the file **_ost-sampleconfig.php_** to **_ost-config.php_**. Go to **_ost-config.php_** properties and Disable inheritance -> Remove all. Then set New Permission -> Everyone -> All
+
+
+13) Go back to osTicket installer and continue to fill out the following information (i.e. Helpdesk Name, Default email, etc)
+
+![Screenshot (32)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/dbe6b44a-8a7f-445b-bc9c-346066d9b5e6)
+
+14) Install HeidiSQL
+
+![Screenshot (33)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/238da758-f334-4e93-94f7-4ef3f391f394)
+
+
+15) Open HeidiSQL. Create a new session and connect to it
+
+![Screenshot (37)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/66ae1422-e681-4785-a5f8-9e4ac3bbf57c)
+
 
 
 
