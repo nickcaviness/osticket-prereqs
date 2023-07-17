@@ -94,11 +94,19 @@ Once installed, launch the configuration wizard for MySQL and select **_Standard
 ![Screenshot (33)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/238da758-f334-4e93-94f7-4ef3f391f394)
 
 
-15) Open HeidiSQL. Create a new session and connect to it
+15) Open HeidiSQL. Create a new session and connect to it. Create a new database called **_osTicket_**.
 
 ![Screenshot (37)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/66ae1422-e681-4785-a5f8-9e4ac3bbf57c)
 
 
+16) Go to **_Windows:C_** -> **_inetpub_** -> **_wwwroot_** -> **_osTicket_**. Delete **_setup_** folder.
+
+17) **_Windows:C_** -> **_inetpub_** -> **_wwwroot_** -> **_osTicket_** -> **_include_**. Set permission for **_ost-config.php_** to "Read" only.
+
+
+18) The osTicket website should now be active. 
+
+![Screenshot (34)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/e17f0c1e-ac7e-48dc-8dd0-8aee7b680534)
 
 
 
@@ -111,23 +119,3 @@ Once installed, launch the configuration wizard for MySQL and select **_Standard
 
 
 
-
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
