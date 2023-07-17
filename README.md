@@ -32,6 +32,18 @@ Type the IP Address **_127.0.0.1_** in a website search bar. Doing so will show 
 ![Screenshot (22)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/79029a8f-c634-46ff-8485-3b8d48f34eb2)
 
 
+
+2) Install PHP Manager (PHPManagerForllS_V1.5.0.msi)
+
+![Screenshot (23)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/4ac208d9-5e24-4f6c-a1a0-e7c33b197cf3)
+
+
+3) Install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+   ![Screenshot (24)](https://github.com/nickcaviness/osticket-prereqs/assets/137835904/7d7ca116-fc3e-41e4-8a91-dc6eed003263)
+
+
+
 </p>
 <br />
 
